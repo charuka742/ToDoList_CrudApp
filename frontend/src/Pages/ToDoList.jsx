@@ -25,11 +25,7 @@ const ToDoList = () => {
           <h2 className="text-2xl font-bold mb-4">Tasks</h2>
           <table>
             <thead>
-              {/* <tr>
-                <th>USERID</th>
-                <th>ID</th>
-                <th>TITLE</th>
-              </tr> */}
+              
             </thead>
             <tbody>
               {records.map ((rec, i) => (
@@ -46,11 +42,7 @@ const ToDoList = () => {
                 </div>
               ))
 
-              // <tr key={i}>
-              //   <td>{rec.userId}</td>
-              //   <td>{rec.id}</td>
-              //   <td>{rec.title}</td>
-              // </tr>
+              
               }
             </tbody>
 

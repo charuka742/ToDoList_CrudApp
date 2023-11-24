@@ -1,6 +1,5 @@
  import React from "react";
  import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-//import LandingPage from "./Pages/LandingPage";
 import AddTask from "./Pages/AddTask";
 import ToDoList from "./Pages/ToDoList";
 import Home from "./Pages/Home";
