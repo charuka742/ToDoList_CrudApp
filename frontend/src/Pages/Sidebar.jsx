@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaTasks, FaSearch, FaCalendarAlt, FaFilter, FaSignOutAlt } from 'react-icons/fa';
 import Profile from './Profile';
+import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
   
@@ -13,8 +14,11 @@ const Sidebar = () => {
 
         {/* Task List */}
         <div className="mb-4">
+          <Link to="/todolist">
           <FaTasks className="inline-block mr-2" />
           <span>Task List</span>
+          </Link>
+          
         </div>
 
         {/* Search Task */}

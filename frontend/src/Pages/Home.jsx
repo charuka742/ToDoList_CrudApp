@@ -36,6 +36,8 @@ const Home = () => {
             </a>
             .
           </p>
+
+          <Link to="/profile"><h1 className='text-2xl text-yellow-200 underline'>Click here. (testing purposes)</h1></Link>
         </div>
       </div>
     </div>

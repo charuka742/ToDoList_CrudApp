@@ -18,9 +18,7 @@ const Login = () => {
     try {
       const res = await axios.post('fake data url', loginDetails);
       console.log(res.data);
-      if (res.status===200) {
-        navigate('/profile');
-      }
+      navigate("/profile");
     } catch (err) {
       console.log(err);
     }
