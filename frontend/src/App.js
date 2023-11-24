@@ -20,7 +20,7 @@ function App() {
         <Route path="/register" element={<Register/>}/>
         <Route path="/profile" element={<><SideBar/> <Profile/></>}/>  //Add all the lists here. Adding tasks, Todo List, Filter & search option
         <Route path="/addTask" element={<AddTask/>}/>
-        <Route path="/todolist" element={<ToDoList/>}/>
+        <Route path="/todolist" element={<><ToDoList/></>}/>
       </Routes>
     </Router>
     </>
