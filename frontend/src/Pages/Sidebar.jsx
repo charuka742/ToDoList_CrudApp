@@ -3,7 +3,7 @@ import { FaTasks, FaSearch, FaCalendarAlt, FaFilter, FaSignOutAlt } from 'react-
 import Profile from './Profile';
 
 const Sidebar = () => {
-  const totalTasks = 10; // Replace with the actual total number of tasks
+  
 
   return (
     <div className="flex h-screen">

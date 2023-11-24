@@ -15,10 +15,10 @@ function App() {
     <>
     <Router>
       <Routes>
-        <Route path="/home" element={<Home/>}/>
+        <Route path="/" element={<Home/>}/>
         <Route path="/login" element={<Login/>}/>
         <Route path="/register" element={<Register/>}/>
-        <Route path="/profile" element={<><SideBar/> <Profile/></>}/>  //Add all the lists here. Adding tasks, Todo List, Filter & search option
+        <Route path="/profile" element={<><SideBar/> <Profile/></>}/> 
         <Route path="/addTask" element={<AddTask/>}/>
         <Route path="/todolist" element={<><ToDoList/></>}/>
       </Routes>

@@ -5,7 +5,7 @@ const ToDoList = () => {
   const [records, setRecords] = useState ([]);
   const loadList = async () => {
     try {
-      const response = await axios.get ('real link is needed');
+      const response = await axios.get ('http://localhost:8080/api/v1/tasks/list');
       console.log (response.data);
       setRecords (response.data);
     } catch (error) {

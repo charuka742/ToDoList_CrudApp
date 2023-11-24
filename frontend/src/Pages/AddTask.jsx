@@ -18,11 +18,9 @@ const AddTask = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post('post method for tasks', tasks);
+      const res = await axios.post('http://localhost:8080/api/v1/tasks/add', tasks);
       console.log(res.data);
-      if (res.status === 200) {
-        navigate('/todolist');
-      }
+      navigate('/todolist');
     } catch (err) {
       console.log(err);
     }
