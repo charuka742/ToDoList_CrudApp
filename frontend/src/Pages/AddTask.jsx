@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Form = () => {
+const AddTask = () => {
   
   return (
     <div className='container mx-auto flex flex-col items-center justify-center mt-36'>
@@ -57,4 +57,4 @@ const Form = () => {
   );
 };
 
-export default Form;
+export default AddTask;
